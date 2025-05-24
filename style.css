@@ -1,0 +1,166 @@
+body {
+    background-color: #8c52FF;
+}
+
+.img-1 {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    background-color: white;
+    width: 500px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+input {
+    width: 230px;
+    height: 30px;
+}
+
+button {
+    margin-top: 30px;
+    height: 50px;
+    border-radius: 15px;
+    width: 100%;
+    border: none;
+    background-color: #8c52FF;
+    font-size: 18px;
+    color: azure;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+ html: (HyperText Markup Language) 
+
+    Principais TAG's Para Textos 
+
+- Cabeçalho (Headline): Diferença de uma para outra é sua importancia!!
+    - <h1></h1>
+    - <h2></h2>
+    - <h3></h3>
+    - <h4></h4>
+    - <h5></h5>
+    - <h6></h6>
+
+- Quebra de texto (Espaço)
+    - <br>
+
+- Parágrafo
+    -<p></p>
+
+- Italico (Mudar formato da fonte)
+    - <i></i>
+
+- Negrito
+    - <b></b> (bold)
+
+- Enfase
+    - strong (Sinaliza o navegador para ler o ponto principal do site "Texto" usada no <p> </p> <h1> </h1> etc...)
+
+- Listas
+    - <ul></ul> Não ordenadas (Adiciona marcadores "•") 
+    - <ol></ol> Ordenadas (Adiciona numerações "1. 2. etc..") 
+    - <li></li> Itens da listas
+        Ex <ol> <li> </li> </ol>  ou  <ul> <li> </li> </ul>
+
+- Link:
+    - <a></a>
+        Ex: <a href="Colocar Link"> </a>        
+            href="" (Serve para definir o destino de um link) 
+
+- Video 
+    - <video src=""></video>       
+        Ex src="./  (Seria a origem)
+    - Adic Controles tag controls
+        Ex <video src="" controls></video>
+
+- Mudar tamanho Estas configs da para usar no index.html para o tamanho de imagem mas ele é um codigo que deve ser escrito pouco o ideal seria digitar no style.css  
+    - width="" (largura)      
+    - height="" (Altura)
+    - autoplay (Video inicia com o site "Mas seguindo as regras do navegador")(Ex: Google Chrome precisa do muted para funcionar o autoplay)
+    - muted (mutar)
+    - poster="" (Capa para video)
+    - <source src=""> (Adiciona varios formato de video mais mudando o final ex .mp4 .mkv .mov)
+        
+- Iframe (Permite exibir conteúdo de uma pagina no site )
+    <iframe src=" link " frameborder="0"></iframe>                  
+        frameborder="0" (remove borda caso seja necessario)          
+            Para pegar um link ja pronto va em compartilhar e incorporar Ex youtube Google maps
+            
+- Imagem no html 
+    <img src="local da img" alt="nome da img/video">                
+        alt="nome da img/video" é um texto alternativo caso não apareça imagem sera mostrado um texto (usado por deficientes visuais)     
+
+- figure 
+    <figure></figure>   
+        Precisa ser anexado uma imagem ou video 
+            Ex <figure><img src="local da img/video" alt="Nome da img/video"></figure>
+    
+    <figcaption>Nome da Imagem </figcaption>    
+        Permite adic uma legenda 
+            Ex <figure><figcaption>Nome da imagem</figcaption></figure>  
+
+- <div></div>   
+    Serve para criar uma divisão ou seção em um documento (caixa)
+
+- <form></form> Formulario
+
+    <input type="">
+        É um campo para que o usuário ou usuária possa inserir algum texto
+
+    <input placeholder="" type=""> 
+        Placeholder é um dica do que tem que ser digitado 
+            Ex digite seu email
+
+    <input placeholder="" type="" required> 
+            required é um campo obrigatorio a ser preenchido
+                type="" é usado para especificar o tipo de conteúdo ou a função de um elemento
+
+- submit (submeter) 
+    <button type="submit"></button>
+        submit é utilizado para criar um botão que, quando clicado, envia os dados do formulário para o servidor  */
